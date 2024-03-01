@@ -1,0 +1,27 @@
+@import '../utils/mixins.scss';
+
+.subscription {
+  @include contentPaddingInline;
+  padding: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &__subtitle {
+    color: #d69f3a
+  }
+
+  &__form {
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+
+    &__input {
+      border: none;
+      background-color: #888870;
+      &::placeholder {
+        color: #fff;
+      }
+    }
+  }
+}

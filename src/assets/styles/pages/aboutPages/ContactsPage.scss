@@ -1,0 +1,35 @@
+.contacts-page {
+  &__container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 350px;
+
+    &__input {
+      border: none;
+    }
+
+    &__textarea {
+      height: 100px;
+      border: none;
+      background-color: #fff;
+      &::placeholder {
+        color: #000;
+        
+      }
+    }
+  }
+}

@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/shy_cakes/static/css/main.6e93f944.css",
-    "main.js": "/shy_cakes/static/js/main.9e9bd57b.js",
+    "main.js": "/shy_cakes/static/js/main.92e13e49.js",
     "static/media/gift_sets.jpg": "/shy_cakes/static/media/gift_sets.5141fbc3fba78a8aa169.jpg",
     "static/media/cake-pops.jpeg": "/shy_cakes/static/media/cake-pops.cf0874d2db96811333ea.jpeg",
     "static/media/cataloge-cake.jpeg": "/shy_cakes/static/media/cataloge-cake.6f1f6750f76a01c947f9.jpeg",
     "static/media/logo-noback.png": "/shy_cakes/static/media/logo-noback.f9dae26048284ba669a3.png",
     "index.html": "/shy_cakes/index.html",
     "main.6e93f944.css.map": "/shy_cakes/static/css/main.6e93f944.css.map",
-    "main.9e9bd57b.js.map": "/shy_cakes/static/js/main.9e9bd57b.js.map"
+    "main.92e13e49.js.map": "/shy_cakes/static/js/main.92e13e49.js.map"
   },
   "entrypoints": [
     "static/css/main.6e93f944.css",
-    "static/js/main.9e9bd57b.js"
+    "static/js/main.92e13e49.js"
   ]
 }

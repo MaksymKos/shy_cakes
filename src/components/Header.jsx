@@ -51,7 +51,7 @@ const Header = () => {
                     </Nav.Link>
                   </LinkContainer>
                 )}
-                <LinkContainer to="/home">
+                <LinkContainer to="home">
                   <Nav.Link>
                     <Home /> Головна
                   </Nav.Link>

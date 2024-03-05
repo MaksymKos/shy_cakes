@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shy_cakes/static/css/main.60e34f58.css",
-    "main.js": "/shy_cakes/static/js/main.e50db20f.js",
+    "main.css": "/shy_cakes/static/css/main.f36b63de.css",
+    "main.js": "/shy_cakes/static/js/main.1d511480.js",
     "static/media/set-2.jpg": "/shy_cakes/static/media/set-2.937764519cb7aee92f56.jpg",
     "static/media/gift_sets.jpg": "/shy_cakes/static/media/gift_sets.5141fbc3fba78a8aa169.jpg",
     "static/media/biscuit-6.jpg": "/shy_cakes/static/media/biscuit-6.5fc7d31e8c5b3918f7ca.jpg",
@@ -16,10 +16,17 @@
     "static/media/cake-pops-1.jpg": "/shy_cakes/static/media/cake-pops-1.8afdc8bd11f23525f0d4.jpg",
     "static/media/biscuit-3.jpg": "/shy_cakes/static/media/biscuit-3.2bbe7cf1c6abcbfd6c83.jpg",
     "static/media/set-1.jpg": "/shy_cakes/static/media/set-1.bba5e74ffc82cc799ba4.jpg",
+    "static/media/rev-2.1.JPG": "/shy_cakes/static/media/rev-2.1.d807953c0be5b27d6964.JPG",
     "static/media/biscuit-7.jpg": "/shy_cakes/static/media/biscuit-7.4eab719074b7fe28166e.jpg",
+    "static/media/rev-3.JPG": "/shy_cakes/static/media/rev-3.eb1a5a68d655a8e9202d.JPG",
     "static/media/cataloge-macarons.jpg": "/shy_cakes/static/media/cataloge-macarons.5946eefe487d79d488b6.jpg",
+    "static/media/rev-2.JPG": "/shy_cakes/static/media/rev-2.5e8c69fe39a87a577dd0.JPG",
     "static/media/biscuit-9.jpg": "/shy_cakes/static/media/biscuit-9.a29b69aa6103f1102096.jpg",
+    "static/media/rev-4.JPG": "/shy_cakes/static/media/rev-4.19ce576c86d425c81117.JPG",
     "static/media/biscuit-8.jpg": "/shy_cakes/static/media/biscuit-8.44e170d3a31bfa1aa386.jpg",
+    "static/media/rev-5.JPG": "/shy_cakes/static/media/rev-5.656dc0cb8fd7d43279d0.JPG",
+    "static/media/rev-1.JPG": "/shy_cakes/static/media/rev-1.1bf4cd2ba1d0e87213af.JPG",
+    "static/media/rev-3.1.JPG": "/shy_cakes/static/media/rev-3.1.817e5811c9de37b21cd8.JPG",
     "static/media/cataloge-eskimo.jpg": "/shy_cakes/static/media/cataloge-eskimo.75d7962f6b2515f5c6e1.jpg",
     "static/media/eskimo-1.jpg": "/shy_cakes/static/media/eskimo-1.75d7962f6b2515f5c6e1.jpg",
     "static/media/biscuit-4.jpg": "/shy_cakes/static/media/biscuit-4.aa07abf382087b66efcb.jpg",
@@ -33,11 +40,11 @@
     "static/media/pack-1.jpg": "/shy_cakes/static/media/pack-1.dfdff4c0855d5eb6e22a.jpg",
     "index.html": "/shy_cakes/index.html",
     "static/media/Arrow_gray.svg": "/shy_cakes/static/media/Arrow_gray.bca5376b1db38a7323e9.svg",
-    "main.60e34f58.css.map": "/shy_cakes/static/css/main.60e34f58.css.map",
-    "main.e50db20f.js.map": "/shy_cakes/static/js/main.e50db20f.js.map"
+    "main.f36b63de.css.map": "/shy_cakes/static/css/main.f36b63de.css.map",
+    "main.1d511480.js.map": "/shy_cakes/static/js/main.1d511480.js.map"
   },
   "entrypoints": [
-    "static/css/main.60e34f58.css",
-    "static/js/main.e50db20f.js"
+    "static/css/main.f36b63de.css",
+    "static/js/main.1d511480.js"
   ]
 }

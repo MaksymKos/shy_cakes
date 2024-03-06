@@ -1,0 +1,92 @@
+@import "../../assets//styles/utils/mixins.scss";
+
+.home {
+  &__title {
+    height: 100vh;
+    background: url(../../assets/images/homepage-background.jpeg) no-repeat
+      center/cover;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 150px;
+
+    &-text {
+      font-size: 32px;
+      padding-top: 20%;
+
+      @include onTablet {
+        font-size: 5vw;
+        padding-top: 10vh;
+      }
+    }
+
+    &-brand {
+      color: #00b4d8;
+      padding-top: 35px;
+      font-size: 66px;
+    }
+  }
+
+  &__about {
+    margin-bottom: 50px;
+
+    &-desc {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin-bottom: 50px;
+
+
+      @include onTablet {
+        flex-direction: row;
+        gap: 24px;
+      }
+
+      @include onTablet {
+        margin: 0 auto;
+        margin-bottom: 50px;
+        gap: 80px;
+        width: max-content;
+      }
+
+      &__title {
+        color: #00b4d8;
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 20px;
+
+        @include onTablet {
+          font-size: 50px;
+        }
+
+        @include onDesktop {
+          max-width: 550px;
+          font-size: 64px;
+          margin-bottom: 0;
+        }
+      }
+
+      &__text {
+        font-size: 18px;
+
+        @include onTablet {
+          max-width: 50%;
+        }
+
+        @include onDesktop {
+          max-width: 600px;
+        }
+      }
+    }
+
+    &__list {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+
+      &-featch {
+        color: #00b4d8;
+        font-size: 52px;
+      }
+    }
+  }
+}

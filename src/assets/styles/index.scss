@@ -1,8 +1,74 @@
-@import './utils/reset.scss';
-@import './utils/mixins.scss';
+@import "./utils/reset.scss";
+@import "./utils/mixins.scss";
 
 * {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  // color: #03045e;
-  // background-color: #caf0f8;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.bread-crumbs {
+  display: flex;
+
+  gap: 8px;
+  padding: 25px;
+  font-size: 18px;
+
+  &__text-gray {
+    color: gray;
+  }
+
+  &__arrow {
+    height: 25px;
+    width: 20px;
+    background: url("../icons/Arrow_gray.svg") no-repeat center/contain;
+    transform: rotate(90deg);
+  }
+}
+
+.page {
+  &__header {
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 44px;
+    color: #90e0ef;
+    
+    @include onTablet {
+      font-size: 64px;
+      padding: 44px;
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 70px;
+
+    @include onDesktop {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  }
+
+  &__text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+
+    &-name {
+      font-size: 54px;
+      color: #0077b6;
+    }
+
+    &-desc {
+      font-size: 30px;
+    }
+  }
+
+  &__price {
+    font-size: 30px;
+    color: #0077b6;
+  }
 }

@@ -1,0 +1,19 @@
+.image {
+  height: 550px;
+  width: 100%;
+  border-radius: 8px;
+  background: no-repeat center/cover;
+
+  &_1 {
+    background-image: url("../../../assets/images/cataloge/gift-sets/set-1.jpg");
+  }
+  &_2 {
+    background-image: url("../../../assets/images/cataloge/gift-sets/set-2.jpg");
+  }
+  &_3 {
+    background-image: url("../../../assets/images/cataloge/gift-sets/set-3.jpg");
+  }
+  &_4 {
+    background-image: url("../../../assets/images/cataloge/gift-sets/set-4.jpg");
+  }
+}

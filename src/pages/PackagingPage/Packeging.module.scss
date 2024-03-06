@@ -1,0 +1,25 @@
+@import '../../assets/styles/utils/mixins.scss';
+
+.image {
+  background: no-repeat center/cover;
+  height: 450px;
+  width: 100%;
+
+  &_1 {
+    background-image: url("../../assets/images/packaging/pack-1.jpg");
+  }
+  &_2 {
+    background-image: url("../../assets/images/packaging/pack-2.jpg");
+  }
+  &_3 {
+    background-image: url("../../assets/images/packaging/pack-3.jpg");
+  }
+  &_4 {
+    height: 650px;
+    background-image: url("../../assets/images/packaging/pack-4.jpg");
+
+    @include onDesktop {
+      width: 50%;
+    }
+  }
+}

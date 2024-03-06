@@ -1,0 +1,10 @@
+.eskimo-image {
+  height: 550px;
+  width: 100%;
+  border-radius: 8px;
+  background: no-repeat center/cover;
+  
+  &-1 {
+    background-image: url("../../../assets/images/cataloge/eskimo/eskimo-1.jpg");
+  }
+}

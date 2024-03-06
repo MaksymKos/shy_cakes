@@ -1,0 +1,61 @@
+@import "../../../assets/styles/utils/mixins.scss";
+
+.mousse {
+  &-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 70px;
+
+    @include onDesktop {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  }
+
+  &-header {
+    text-align: center;
+    font-weight: 700;
+    padding: 44px;
+    font-size: 64px;
+    color: #90e0ef;
+  }
+
+  &-name {
+    font-size: 54px;
+    color: #0077b6;
+  }
+
+  &-desc {
+    font-size: 30px;
+  }
+
+  &-price {
+    font-size: 30px;
+    color: #0077b6;
+  }
+
+  &-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+
+  &-image {
+    background: no-repeat center/cover;
+
+    height: 550px;
+    width: 100%;
+
+
+
+    &-1 {
+      background-image: url("../../../assets/images/cataloge/mousse-cakes/mousse-cake-1.jpg");
+    }
+    &-2 {
+      background-image: url("../../../assets/images/cataloge/mousse-cakes/mousse-cake-2.jpg");
+    }
+  }
+}

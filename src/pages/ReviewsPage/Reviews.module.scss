@@ -1,0 +1,29 @@
+@import "../../assets/styles/utils/mixins.scss";
+
+.image {
+  background: no-repeat center/contain;
+  height: 550px;
+  width: 100%;
+
+  &_1 {
+    background-image: url("../../assets/images/reviews/rev-1.jpg");
+  }
+  &_2 {
+    background-image: url("../../assets/images/reviews/rev-2.jpg");
+  }
+  &_2_1 {
+    background-image: url("../../assets/images/reviews/rev-2.1.jpg");
+  }
+  &_3 {
+    background-image: url("../../assets/images/reviews/rev-3.jpg");
+  }
+  &_3_1 {
+    background-image: url("../../assets/images/reviews/rev-3.1.jpg");
+  }
+  &_4 {
+    background-image: url("../../assets/images/reviews/rev-4.jpg");
+  }
+  &_5 {
+    background-image: url("../../assets/images/reviews/rev-5.jpg");
+  }
+}

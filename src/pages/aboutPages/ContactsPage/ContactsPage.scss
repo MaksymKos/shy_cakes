@@ -1,0 +1,27 @@
+@import "../../../assets/styles/utils/mixins.scss";
+
+.contacts-page {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    @include onTablet {
+      justify-content: center;
+      flex-direction: row;
+      align-items: normal;
+    }
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+  }
+
+  &__link {
+    color: #90e0ef;
+  }
+}

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shy_cakes/static/css/main.e66ce7c0.css",
-    "main.js": "/shy_cakes/static/js/main.3f87282c.js",
+    "main.js": "/shy_cakes/static/js/main.8a3f987e.js",
     "static/media/set-2.jpg": "/shy_cakes/static/media/set-2.4ed35b17ca904f6a7c2e.jpg",
     "static/media/biscuit-5.jpg": "/shy_cakes/static/media/biscuit-5.514d59b7067a96c62211.jpg",
     "static/media/set-4.jpg": "/shy_cakes/static/media/set-4.df5c6f67ccae60c236a2.jpg",
@@ -41,10 +41,10 @@
     "index.html": "/shy_cakes/index.html",
     "static/media/Arrow_gray.svg": "/shy_cakes/static/media/Arrow_gray.bca5376b1db38a7323e9.svg",
     "main.e66ce7c0.css.map": "/shy_cakes/static/css/main.e66ce7c0.css.map",
-    "main.3f87282c.js.map": "/shy_cakes/static/js/main.3f87282c.js.map"
+    "main.8a3f987e.js.map": "/shy_cakes/static/js/main.8a3f987e.js.map"
   },
   "entrypoints": [
     "static/css/main.e66ce7c0.css",
-    "static/js/main.3f87282c.js"
+    "static/js/main.8a3f987e.js"
   ]
 }

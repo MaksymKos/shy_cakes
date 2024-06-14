@@ -1,33 +1,34 @@
 {
   "files": {
-    "main.css": "/shy_cakes/static/css/main.871174ed.css",
-    "main.js": "/shy_cakes/static/js/main.5ced3680.js",
+    "main.css": "/shy_cakes/static/css/main.d1cdc3d2.css",
+    "main.js": "/shy_cakes/static/js/main.de4fe87f.js",
+    "static/media/cataloge-macarons.jpg": "/shy_cakes/static/media/cataloge-macarons.ad0e5762df6c3f448d97.jpg",
+    "static/media/mac-1.jpg": "/shy_cakes/static/media/mac-1.6d6d1733743cd3648755.jpg",
+    "static/media/mac-3.jpg": "/shy_cakes/static/media/mac-3.98e888580529fa41e0f8.jpg",
+    "static/media/mac-4.jpg": "/shy_cakes/static/media/mac-4.38890adf48a2e65c83ce.jpg",
     "static/media/rev-3.jpg": "/shy_cakes/static/media/rev-3.aa07abf382087b66efcb.jpg",
+    "static/media/rev-1.jpg": "/shy_cakes/static/media/rev-1.eef7670e1ac4fe196085.jpg",
+    "static/media/mac-2.jpg": "/shy_cakes/static/media/mac-2.f1751854dac9b5113b91.jpg",
     "static/media/mousse-cake-3.jpg": "/shy_cakes/static/media/mousse-cake-3.706957a7d7456028b7e9.jpg",
-    "static/media/rev-2.jpg": "/shy_cakes/static/media/rev-2.7b9198ba203adbdb178f.jpg",
+    "static/media/rev-2.jpg": "/shy_cakes/static/media/rev-2.f8dd35657ae068506b93.jpg",
     "static/media/rev-4.jpg": "/shy_cakes/static/media/rev-4.fbc3724e0cbf345e42e2.jpg",
     "static/media/set-2.jpg": "/shy_cakes/static/media/set-2.db4b23d69521c7918b8e.jpg",
-    "static/media/rev-2.1.jpg": "/shy_cakes/static/media/rev-2.1.003e00e41cd064886d09.jpg",
     "static/media/biscuit-2.jpg": "/shy_cakes/static/media/biscuit-2.92d95f42cac0120a12cf.jpg",
     "static/media/mousse-cake-1.jpg": "/shy_cakes/static/media/mousse-cake-1.c168e3342ddb3eee623e.jpg",
     "static/media/biscuit-1.jpg": "/shy_cakes/static/media/biscuit-1.6221ad560094b41406e0.jpg",
     "static/media/mousse-cake-2.jpg": "/shy_cakes/static/media/mousse-cake-2.ad5bf94040dfb97c0548.jpg",
     "static/media/set-4.jpg": "/shy_cakes/static/media/set-4.3b6deffc34d70379d346.jpg",
-    "static/media/rev-1.jpg": "/shy_cakes/static/media/rev-1.eef7670e1ac4fe196085.jpg",
     "static/media/cake-pops-2.jpg": "/shy_cakes/static/media/cake-pops-2.cd6c197b439195cdb70b.jpg",
     "static/media/cake-pops.jpeg": "/shy_cakes/static/media/cake-pops.cd6c197b439195cdb70b.jpeg",
     "static/media/biscuit-6.jpg": "/shy_cakes/static/media/biscuit-6.3cbb9fdd3dd605d9e540.jpg",
-    "static/media/cataloge-macarons.jpg": "/shy_cakes/static/media/cataloge-macarons.9d1c002f2a0ddd719a4e.jpg",
     "static/media/biscuit-7.jpg": "/shy_cakes/static/media/biscuit-7.3ea363d619bef82961a9.jpg",
     "static/media/biscuit-3.jpg": "/shy_cakes/static/media/biscuit-3.afb2cdaec354d1f1f64b.jpg",
     "static/media/gift_sets.jpg": "/shy_cakes/static/media/gift_sets.41c7d98014377752a440.jpg",
     "static/media/biscuit-9.jpg": "/shy_cakes/static/media/biscuit-9.283480125420a60be28b.jpg",
-    "static/media/rev-5.jpg": "/shy_cakes/static/media/rev-5.95b07bf55cae89184462.jpg",
     "static/media/set-1.jpg": "/shy_cakes/static/media/set-1.db8f0993b4e40ba8005f.jpg",
     "static/media/cake-pops-1.jpg": "/shy_cakes/static/media/cake-pops-1.f284e08fe2e77b04986e.jpg",
     "static/media/biscuit-8.jpg": "/shy_cakes/static/media/biscuit-8.5382bf98f3cb391fda4a.jpg",
     "static/media/biscuit-5.jpg": "/shy_cakes/static/media/biscuit-5.460fa081d8a42f433cff.jpg",
-    "static/media/rev-3.1.jpg": "/shy_cakes/static/media/rev-3.1.060087545399f5a9cdc0.jpg",
     "static/media/eskimo-1.jpg": "/shy_cakes/static/media/eskimo-1.e79775b3a247a936e944.jpg",
     "static/media/cataloge-eskimo.jpg": "/shy_cakes/static/media/cataloge-eskimo.d202204a24bfc3f91a8b.jpg",
     "static/media/set-3.jpg": "/shy_cakes/static/media/set-3.9f3dc8bbca3ddef7a89b.jpg",
@@ -41,11 +42,11 @@
     "static/media/pack-1.jpg": "/shy_cakes/static/media/pack-1.b5015240ff5012773dc8.jpg",
     "index.html": "/shy_cakes/index.html",
     "static/media/Arrow_gray.svg": "/shy_cakes/static/media/Arrow_gray.bca5376b1db38a7323e9.svg",
-    "main.871174ed.css.map": "/shy_cakes/static/css/main.871174ed.css.map",
-    "main.5ced3680.js.map": "/shy_cakes/static/js/main.5ced3680.js.map"
+    "main.d1cdc3d2.css.map": "/shy_cakes/static/css/main.d1cdc3d2.css.map",
+    "main.de4fe87f.js.map": "/shy_cakes/static/js/main.de4fe87f.js.map"
   },
   "entrypoints": [
-    "static/css/main.871174ed.css",
-    "static/js/main.5ced3680.js"
+    "static/css/main.d1cdc3d2.css",
+    "static/js/main.de4fe87f.js"
   ]
 }

@@ -24,6 +24,7 @@
 
   &-name {
     font-size: 54px;
+
     color: #0077b6;
   }
 
@@ -49,13 +50,16 @@
     height: 550px;
     width: 100%;
 
-
-
     &-1 {
       background-image: url("../../../assets/images/cataloge/mousse-cakes/mousse-cake-1.jpg");
     }
     &-2 {
       background-image: url("../../../assets/images/cataloge/mousse-cakes/mousse-cake-2.jpg");
     }
+    &-3 {
+      background-image: url("../../../assets/images/cataloge/mousse-cakes/mousse-cake-3.jpg");
+    }
   }
 }
+
+// 

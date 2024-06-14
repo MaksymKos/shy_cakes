@@ -1,13 +1,20 @@
 @import "../../assets/styles/utils/mixins.scss";
 
-.image {
-  background: no-repeat center/contain;
-  height: 550px;
+.swiper {
   width: 100%;
 
-  &_1 {
-    background-image: url("../../assets/images/reviews/rev-1.jpg");
+  &_slide {
+    display: flex;
+    justify-content: center;
   }
+}
+
+.image {
+  height: 550px;
+  width: max-content;
+  object-fit: contain;
+
+
   &_2 {
     background-image: url("../../assets/images/reviews/rev-2.jpg");
   }

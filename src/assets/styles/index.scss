@@ -3,7 +3,14 @@
 
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 120%;
 }
+
+// swiper 
+
+.swiper-pagination{
+  position: static;
+} 
 
 .bread-crumbs {
   display: flex;

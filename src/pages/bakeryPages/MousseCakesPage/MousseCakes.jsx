@@ -41,6 +41,14 @@ const MousseCakes = () => {
               <p className='mousse-price'><span>650	₴</span> / кг</p>
             </div>
           </div>
+          <div className="mousse-item">
+            <div className="mousse-image mousse-image-3" />
+            <div className="mousse-text">
+              <h6 className='mousse-name'>Полунична насолода</h6>
+              <p className='mousse-desc'>Ніжний шоколадний мус з ягідним центром покритий бельгійським шоколадом.</p>
+              <p className='mousse-price'><span>80	₴</span> / шт</p>
+            </div>
+          </div>
         </div>
       </Container>
     </>

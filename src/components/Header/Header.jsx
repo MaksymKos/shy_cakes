@@ -20,7 +20,7 @@ const Header = () => {
     <header className='header border-bottom sticky-top'>
       <Navbar expand="md">
         <Container fluid>
-          <Navbar.Brand href="/home">
+          <Navbar.Brand href="/">
             <Figure.Image
               width={120}
               height={100}
@@ -43,7 +43,7 @@ const Header = () => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1">
-                <LinkContainer to="home" onClick={handleClose}>
+                <LinkContainer to="/" onClick={handleClose}>
                   <Nav.Link>
                     <Home /> Головна
                   </Nav.Link>

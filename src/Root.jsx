@@ -19,7 +19,7 @@ import CakePopsPage from './pages/bakeryPages/CakePopsPage/CakePopsPage';
 import GiftSetsPage from './pages/bakeryPages/GiftSetsPage/GiftSetsPage';
 import Packaging from './pages/PackagingPage/PackagingPage';
 import ReviewsPage from './pages/ReviewsPage/ReviewsPage';
-import ScrollToTop from "./scrollToTop";
+import ScrollToTop from "./utils/scrollToTop";
 
 
 export const Root = () => {
@@ -29,7 +29,7 @@ export const Root = () => {
       <Routes>
         <Route path='/' element={<App />}>
           <Route index element={<HomePage />} />
-          <Route path='home' element={<Navigate to="/" replace />} />
+          {/* <Route path='home' element={<Navigate to="/" replace />} /> */}
           <Route path='packaging' element={<Packaging />} />
           <Route path='reviews' element={<ReviewsPage />} />
 

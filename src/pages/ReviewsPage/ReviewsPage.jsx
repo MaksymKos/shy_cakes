@@ -28,32 +28,32 @@ const ReviewsPage = () => {
       <Container>
         <h1 className="page__header">Відгуки</h1>
 
-        <div className="mb-5">
+        <div className="mb-5 bar">
           <div className="page__item">
             <Swiper
               className={styles.swiper}
               modules={[Pagination]}
-              spaceBetween={10}
+              spaceBetween={100}
               slidesPerView={1}
               grabCursor={true}
               loop={true}
               pagination={{ clickable: true }}
             >
-              {rev1.map((r) => {
+              {rev1.map((r, index) => {
                 return (
-                  <SwiperSlide className={styles.swiper_slide}>
+                  <SwiperSlide className={styles.swiper_slide} key={index}>
                     <img src={r} alt="відгук" className={styles.image} />
                   </SwiperSlide>
                 );
               })}
             </Swiper>
-            <div className="biscuit-text">
-              <h6 className="biscuit-name">Орео</h6>
-              <p className="biscuit-desc">
+            <div className="block">
+              <h6 className="block-name">Орео</h6>
+              <p className="block-desc">
                 Повітряні шоколадні бісквіти, крем-чіз з орео, ніжний чізкейк
                 орео Покриття ганаш на білому шоколаді
               </p>
-              <p className="biscuit-price">
+              <p className="block-price">
                 <span>1850 ₴</span> / 2,5 кг
               </p>
               <Button text="Замовити такий"/>
@@ -64,27 +64,27 @@ const ReviewsPage = () => {
             <Swiper
               className={styles.swiper}
               modules={[Pagination]}
-              spaceBetween={10}
+              spaceBetween={100}
               slidesPerView={1}
               grabCursor={true}
               loop={true}
               pagination={{ clickable: true }}
             >
-              {rev2.map((r) => {
+              {rev2.map((r, index) => {
                 return (
-                  <SwiperSlide className={styles.swiper_slide}>
+                  <SwiperSlide className={styles.swiper_slide} key={index}>
                     <img src={r} alt="відгук" className={styles.image} />
                   </SwiperSlide>
                 );
               })}
             </Swiper>
-            <div className="biscuit-text">
-              <h6 className="biscuit-name">Вишня-шоколад</h6>
-              <p className="biscuit-desc">
+            <div className="block">
+              <h6 className="block-name">Вишня-шоколад</h6>
+              <p className="block-desc">
                 Шоколадні бісквіти, крем-чіз з вершками, вишневе компоте з
                 пелюстками мигдалю
               </p>
-              <p className="biscuit-price">
+              <p className="block-price">
                 <span>1500 ₴</span> / 2,5 кг
               </p>
               <Button text="Замовити такий"/>
@@ -95,27 +95,27 @@ const ReviewsPage = () => {
             <Swiper
                 className={styles.swiper}
                 modules={[Pagination]}
-                spaceBetween={10}
+                spaceBetween={100}
                 slidesPerView={1}
                 grabCursor={true}
                 loop={true}
                 pagination={{ clickable: true }}
               >
-                {rev3.map((r) => {
+                {rev3.map((r, index) => {
                   return (
-                    <SwiperSlide className={styles.swiper_slide}>
+                    <SwiperSlide className={styles.swiper_slide} key={index}>
                       <img src={r} alt="відгук" className={styles.image} />
                     </SwiperSlide>
                   );
                 })}
               </Swiper>
-            <div className="biscuit-text">
-              <h6 className="biscuit-name">ШОКО</h6>
-              <p className="biscuit-desc">
+            <div className="block">
+              <h6 className="block-name">ШОКО</h6>
+              <p className="block-desc">
                 Шоколадно-кавові бісквіти, крем-чіз з вершками, шматочки банану,
                 солодка карамель
               </p>
-              <p className="biscuit-price">
+              <p className="block-price">
                 <span>800 ₴</span> / 1,2 кг
               </p>
               <Button text="Замовити такий"/>
@@ -127,26 +127,26 @@ const ReviewsPage = () => {
             <Swiper
                 className={styles.swiper}
                 modules={[Pagination]}
-                spaceBetween={10}
+                spaceBetween={100}
                 slidesPerView={1}
                 grabCursor={true}
                 loop={true}
                 pagination={{ clickable: true }}
               >
-                {rev4.map((r) => {
+                {rev4.map((r, index) => {
                   return (
-                    <SwiperSlide className={styles.swiper_slide}>
+                    <SwiperSlide className={styles.swiper_slide} key={index}>
                       <img src={r} alt="відгук" className={styles.image} />
                     </SwiperSlide>
                   );
                 })}
               </Swiper>
-            <div className="biscuit-text">
-              <h6 className="biscuit-name">Повітряні класичні бісквіти</h6>
-              <p className="biscuit-desc">
+            <div className="block">
+              <h6 className="block-name">Повітряні класичні бісквіти</h6>
+              <p className="block-desc">
                 Крем-чіз на вершках Вишневе компоте Шоколадно-масляний крем{" "}
               </p>
-              <p className="biscuit-price">
+              <p className="block-price">
                 <span>1500 ₴</span> / 2,5 кг
               </p>
               <Button text="Замовити такий"/>
@@ -157,27 +157,27 @@ const ReviewsPage = () => {
             <Swiper
                 className={styles.swiper}
                 modules={[Pagination]}
-                spaceBetween={10}
+                spaceBetween={100}
                 slidesPerView={1}
                 grabCursor={true}
                 loop={true}
                 pagination={{ clickable: true }}
               >
-                {rev5.map((r) => {
+                {rev5.map((r, index) => {
                   return (
-                    <SwiperSlide className={styles.swiper_slide}>
+                    <SwiperSlide className={styles.swiper_slide} key={index}>
                       <img src={r} alt="відгук" className={styles.image} />
                     </SwiperSlide>
                   );
                 })}
               </Swiper>
-            <div className="biscuit-text">
-              <h6 className="biscuit-name">Апельсин-шоколад</h6>
-              <p className="biscuit-desc">
+            <div className="block">
+              <h6 className="block-name">Апельсин-шоколад</h6>
+              <p className="block-desc">
                 Фундучні бісквіти,- ганаш на білому шоколаді, апельсинове конфі
                 Покриття ганаш на білому шоколаді + велюр
               </p>
-              <p className="biscuit-price">
+              <p className="block-price">
                 <span>3000 ₴</span> / 3 кг
               </p>
               <Button text="Замовити такий"/>
@@ -188,27 +188,27 @@ const ReviewsPage = () => {
             <Swiper
                 className={styles.swiper}
                 modules={[Pagination]}
-                spaceBetween={10}
+                spaceBetween={100}
                 slidesPerView={1}
                 grabCursor={true}
                 loop={true}
                 pagination={{ clickable: true }}
               >
-                {rev6.map((r) => {
+                {rev6.map((r, index) => {
                   return (
-                    <SwiperSlide className={styles.swiper_slide}>
+                    <SwiperSlide className={styles.swiper_slide} key={index}>
                       <img src={r} alt="відгук" className={styles.image} />
                     </SwiperSlide>
                   );
                 })}
               </Swiper>
-            <div className="biscuit-text">
-              <h6 className="biscuit-name">Апельсин-шоколад</h6>
-              <p className="biscuit-desc">
+            <div className="block">
+              <h6 className="block-name">Апельсин-шоколад</h6>
+              <p className="block-desc">
                 Фундучні бісквіти,- ганаш на білому шоколаді, апельсинове конфі
                 Покриття ганаш на білому шоколаді + велюр
               </p>
-              <p className="biscuit-price">
+              <p className="block-price">
                 <span>850 ₴</span> / 1 кг
               </p>
               <Button text="Замовити такий"/>
@@ -219,26 +219,26 @@ const ReviewsPage = () => {
             <Swiper
                 className={styles.swiper}
                 modules={[Pagination]}
-                spaceBetween={10}
+                spaceBetween={100}
                 slidesPerView={1}
                 grabCursor={true}
                 loop={true}
                 pagination={{ clickable: true }}
               >
-                {rev7.map((r) => {
+                {rev7.map((r, index) => {
                   return (
-                    <SwiperSlide className={styles.swiper_slide}>
+                    <SwiperSlide className={styles.swiper_slide} key={index}>
                       <img src={r} alt="відгук" className={styles.image} />
                     </SwiperSlide>
                   );
                 })}
               </Swiper>
-            <div className="biscuit-text">
-              <h6 className="biscuit-name">Фісташка-малина</h6>
-              <p className="biscuit-desc">
+            <div className="block">
+              <h6 className="block-name">Фісташка-малина</h6>
+              <p className="block-desc">
                 Класичні ванільні бісквіти, крем-чіз з вершками, малинове конфі, фісташковий ганаш
               </p>
-              <p className="biscuit-price">
+              <p className="block-price">
                 <span>2250 ₴</span> / 2 кг
               </p>
               <Button text="Замовити такий"/>
@@ -249,29 +249,29 @@ const ReviewsPage = () => {
             <Swiper
                 className={styles.swiper}
                 modules={[Pagination]}
-                spaceBetween={10}
+                spaceBetween={100}
                 slidesPerView={1}
                 grabCursor={true}
                 loop={true}
                 pagination={{ clickable: true }}
               >
-                {rev8.map((r) => {
+                {rev8.map((r, index) => {
                   return (
-                    <SwiperSlide className={styles.swiper_slide}>
+                    <SwiperSlide className={styles.swiper_slide} key={index}>
                       <img src={r} alt="відгук" className={styles.image} />
                     </SwiperSlide>
                   );
                 })}
               </Swiper>
-            <div className="biscuit-text">
-              <h6 className="biscuit-name">Подарунковий набір де кожний знайде смак який йому до вподоби🤤</h6>
-              <p className="biscuit-desc">
+            <div className="block">
+              <h6 className="block-name">Подарунковий набір 🤤</h6>
+              <p className="block-desc">
                 📍макарони з бананом <br />
                 📍макарони з фісташкою та малиною <br />
                 📍МАХ кейк попс <br />
                 📍мусові напівяйця в асортименті 
               </p>
-              <p className="biscuit-price">
+              <p className="block-price">
                 <span>1000 ₴</span> / набір
               </p>
               <Button text="Замовити такий"/>
@@ -282,26 +282,26 @@ const ReviewsPage = () => {
             <Swiper
                 className={styles.swiper}
                 modules={[Pagination]}
-                spaceBetween={10}
+                spaceBetween={100}
                 slidesPerView={1}
                 grabCursor={true}
                 loop={true}
                 pagination={{ clickable: true }}
               >
-                {rev9.map((r) => {
+                {rev9.map((r, index) => {
                   return (
-                    <SwiperSlide className={styles.swiper_slide}>
+                    <SwiperSlide className={styles.swiper_slide} key={index}>
                       <img src={r} alt="відгук" className={styles.image} />
                     </SwiperSlide>
                   );
                 })}
               </Swiper>
-            <div className="biscuit-text">
-              <h6 className="biscuit-name">3 шоколади  </h6>
-              <p className="biscuit-desc">
+            <div className="block">
+              <h6 className="block-name">3 шоколади  </h6>
+              <p className="block-desc">
                 Шоколадний бісквіт у поєднаннч з 3 шоколадними мусами з чорного, молочного та білого шоколаду
               </p>
-              <p className="biscuit-price">
+              <p className="block-price">
                 <span>1150 ₴</span> / 1.5 кг
               </p>
               <Button text="Замовити такий"/>

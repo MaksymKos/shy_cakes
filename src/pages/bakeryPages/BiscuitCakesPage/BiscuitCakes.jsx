@@ -31,7 +31,7 @@ const BiscuitCakes = () => {
             <div className="biscuit-text">
               <h6 className='biscuit-name'>ШОКО</h6>
               <p className='biscuit-desc'>Шоколадно-кавові бісквіти, крем-чіз з вершками, шматочки банану, солодка карамель.</p>
-              <p className='biscuit-price'><span>650	₴</span> / кг</p>
+              <p className='biscuit-price'><span>730	₴</span> / кг</p>
             </div>
           </div>
 
@@ -40,7 +40,7 @@ const BiscuitCakes = () => {
             <div className="biscuit-text">
               <h6 className='biscuit-name'>Київський</h6>
               <p className='biscuit-desc'>Білкові коржі з додаванням фундуку, крем Шарлотт.</p>
-              <p className='biscuit-price'><span>700	₴</span> / кг</p>
+              <p className='biscuit-price'><span>750	₴</span> / кг</p>
             </div>
           </div>
 
@@ -49,7 +49,7 @@ const BiscuitCakes = () => {
             <div className="biscuit-text">
               <h6 className='biscuit-name'>Празький</h6>
               <p className='biscuit-desc'>Шоколадні бісквіти з абрикосовим просоченням, шоколадно-масляний крем.</p>
-              <p className='biscuit-price'><span>650	₴</span> / кг</p>
+              <p className='biscuit-price'><span>730	₴</span> / кг</p>
             </div>
           </div>
 
@@ -58,7 +58,7 @@ const BiscuitCakes = () => {
             <div className="biscuit-text">
               <h6 className='biscuit-name'>Вишня-шоколад</h6>
               <p className='biscuit-desc'>Шоколадні бісквіти, крем-чіз з вершками, вишневе компоте з пелюстками мигдалю.</p>
-              <p className='biscuit-price'><span>650	₴</span> / кг</p>
+              <p className='biscuit-price'><span>730	₴</span> / кг</p>
             </div>
           </div>
 
@@ -67,7 +67,7 @@ const BiscuitCakes = () => {
             <div className="biscuit-text">
               <h6 className='biscuit-name'>Орео</h6>
               <p className='biscuit-desc'>Шоколадні бісквіти, крем-чіз з орео, чізкейк орео.</p>
-              <p className='biscuit-price'><span>650	₴</span> / кг</p>
+              <p className='biscuit-price'><span>750	₴</span> / кг</p>
             </div>
           </div>
           <div className="biscuit-item">
@@ -75,7 +75,7 @@ const BiscuitCakes = () => {
             <div className="biscuit-text">
               <h6 className='biscuit-name'>Лимонний</h6>
               <p className='biscuit-desc'>Класичні бісквіти, крем-чіз з вершками, лимонний курд.</p>
-              <p className='biscuit-price'><span>650	₴</span> / кг</p>
+              <p className='biscuit-price'><span>730	₴</span> / кг</p>
             </div>
           </div>
           <div className="biscuit-item">
@@ -83,7 +83,7 @@ const BiscuitCakes = () => {
             <div className="biscuit-text">
               <h6 className='biscuit-name'>Манго-персик</h6>
               <p className='biscuit-desc'>Класичні бісквіти, крем-чіз з вершками, мангове конфі, шматочки персика.</p>
-              <p className='biscuit-price'><span>650	₴</span> / кг</p>
+              <p className='biscuit-price'><span>750	₴</span> / кг</p>
             </div>
           </div>
           <div className="biscuit-item">
@@ -91,15 +91,15 @@ const BiscuitCakes = () => {
             <div className="biscuit-text">
               <h6 className='biscuit-name'>Фісташка-малина</h6>
               <p className='biscuit-desc'>Класичні бісквіти, крем-чіз з вершками, малинове конфі, фісташковий ганаш.</p>
-              <p className='biscuit-price'><span>700	₴</span> / кг</p>
+              <p className='biscuit-price'><span>770	₴</span> / кг</p>
             </div>
           </div>
           <div className="biscuit-item">
             <div className="biscuit-image biscuit-image-9" />
             <div className="biscuit-text">
               <h6 className='biscuit-name'>Апельсин-шоколад</h6>
-              <p className='biscuit-desc'>Фундучні бісквіти - ганаш на білому шоколаді, апельсинове конфі.</p>
-              <p className='biscuit-price'><span>700	₴</span> / кг</p>
+              <p className='biscuit-desc'>Фундучні бісквіти, ганаш на білому шоколаді, апельсинове конфі.</p>
+              <p className='biscuit-price'><span>770	₴</span> / кг</p>
             </div>
           </div>
 

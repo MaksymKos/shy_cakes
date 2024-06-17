@@ -30,7 +30,7 @@ const MousseCakes = () => {
             <div className="mousse-text">
               <h6 className='mousse-name'>Три шоколади</h6>
               <p className='mousse-desc'>Шоколадний бісквіт. Три шоколадних мусса з чорного, молочного та білого шоколаду</p>
-              <p className='mousse-price'><span>750	₴</span> / кг</p>
+              <p className='mousse-price'><span>850	₴</span> / кг</p>
             </div>
           </div>
           <div className="mousse-item">
@@ -38,15 +38,20 @@ const MousseCakes = () => {
             <div className="mousse-text">
               <h6 className='mousse-name'>Полунична насолода</h6>
               <p className='mousse-desc'>Класичний бісквіт, полуничне компоте, полуничний мусс</p>
-              <p className='mousse-price'><span>650	₴</span> / кг</p>
+              <p className='mousse-price'><span>730	₴</span> / кг</p>
             </div>
           </div>
           <div className="mousse-item">
             <div className="mousse-image mousse-image-3" />
             <div className="mousse-text">
-              <h6 className='mousse-name'>Полунична насолода</h6>
+              <h6 className='mousse-name'>Мусові половинки</h6>
               <p className='mousse-desc'>Ніжний шоколадний мус з ягідним центром покритий бельгійським шоколадом.</p>
-              <p className='mousse-price'><span>80	₴</span> / шт</p>
+              <p className="block-desc">
+                📍Вишня <br />
+                📍Малина <br />
+                📍Манго
+              </p>
+              <p className='mousse-price'><span>85	₴</span> / шт</p>
             </div>
           </div>
         </div>

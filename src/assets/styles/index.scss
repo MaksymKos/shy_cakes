@@ -10,6 +10,7 @@
 
 .swiper-pagination{
   position: static;
+  margin-top: 20px;
 } 
 
 .bread-crumbs {
@@ -77,5 +78,40 @@
   &__price {
     font-size: 30px;
     color: #0077b6;
+  }
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 70px;
+  color: #0077b6;
+  font-size: 30px;
+  text-align: center;
+
+
+
+  @include onDesktop {
+    align-items: flex-start;
+    text-align: start;
+  }
+
+  &-name {
+    font-size: 34px;
+    font-weight: 600;
+    @include onTablet {
+      font-size: 54px;
+    }
+  }
+
+  &-desc {
+    font-size: 26px;
+    color: black;
+  }
+
+  &-price {
+    font-weight: 500;
   }
 }

@@ -36,26 +36,37 @@ const Macarons = () => {
           <div className="mb-5">
             <div className='page__item'>
               <img className={styles.image} src={Mac1} alt="макарончик" />
-              <h6 className='page__text-block-name'>Шоколад-вишня</h6>
-              <p className='page__price'><span>1 шт</span> / 65 грн</p>
+              <div className="page__text-block">
+                <h6 className='page__text-block-name'>Шоколад-вишня</h6>
+                <p className='page__price'><span>1 шт</span> / 65 грн</p>
+              </div>
             </div>
 
             <div className='page__item'>
               <img className={styles.image} src={Mac2} alt="макарончик" />
-              <h6 className='page__text-block-name'>Шоколад-вишня</h6>
-              <p className='page__price'><span>1 шт</span> / 65 грн</p>
+              <div className="page__text-block">
+                <h6 className='page__text-block-name'>Молочний шоколад-банан</h6>
+                <p className='page__price'><span>1 шт</span> / 65 грн</p>
+              </div>
+
             </div>
 
             <div className='page__item'>
               <img className={styles.image} src={Mac3} alt="макарончик" />
-              <h6 className='page__text-block-name'>Шоколад-вишня</h6>
-              <p className='page__price'><span>1 шт</span> / 65 грн</p>
+              <div className="page__text-block">
+                <h6 className='page__text-block-name'>Фісташка-малина</h6>
+                <p className='page__price'><span>1 шт</span> / 65 грн</p>
+              </div>
+
             </div>
 
             <div className='page__item'>
               <img className={styles.image} src={Mac4} alt="макарончик" />
-              <h6 className='page__text-block-name'>Шоколад-вишня</h6>
-              <p className='page__price'><span>1 шт</span> / 65 грн</p>
+              <div className="page__text-block">
+                <h6 className='page__text-block-name'>Кокос- манго</h6>
+                <p className='page__price'><span>1 шт</span> / 65 грн</p>
+              </div>
+
             </div>
           </div>
         </Container>

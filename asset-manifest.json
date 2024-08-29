@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shy_cakes/static/css/main.0fbb3cac.css",
-    "main.js": "/shy_cakes/static/js/main.0c29c673.js",
+    "main.js": "/shy_cakes/static/js/main.247d911a.js",
     "static/media/cataloge-macarons.jpg": "/shy_cakes/static/media/cataloge-macarons.ad0e5762df6c3f448d97.jpg",
     "static/media/mac-1.jpg": "/shy_cakes/static/media/mac-1.6d6d1733743cd3648755.jpg",
     "static/media/mac-3.jpg": "/shy_cakes/static/media/mac-3.98e888580529fa41e0f8.jpg",
@@ -48,10 +48,10 @@
     "index.html": "/shy_cakes/index.html",
     "static/media/Arrow_gray.svg": "/shy_cakes/static/media/Arrow_gray.bca5376b1db38a7323e9.svg",
     "main.0fbb3cac.css.map": "/shy_cakes/static/css/main.0fbb3cac.css.map",
-    "main.0c29c673.js.map": "/shy_cakes/static/js/main.0c29c673.js.map"
+    "main.247d911a.js.map": "/shy_cakes/static/js/main.247d911a.js.map"
   },
   "entrypoints": [
     "static/css/main.0fbb3cac.css",
-    "static/js/main.0c29c673.js"
+    "static/js/main.247d911a.js"
   ]
 }

@@ -26,6 +26,18 @@ const GiftSetsPage = () => {
         <h1 className='page__header'>Подарункові набори</h1>
         <div className="mb-5">
 
+        <div className='page__item'>
+            <div className={`${styles.image} ${styles.image_0}`} />
+            <div className="page__text-block">
+              <h6 className='page__text-block-name'>Macarons</h6>
+              <ul className='page__text-block-desc'>
+                <li>5 шт - 325 грн</li> <br />
+                <li>10 шт - 650 грн</li> <br />
+              </ul>
+              <p className='page__price'>Смаки в асортименті</p>
+            </div>
+          </div>
+
           <div className='page__item'>
             <div className={`${styles.image} ${styles.image_1}`} />
             <div className="page__text-block">

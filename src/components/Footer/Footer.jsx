@@ -14,7 +14,7 @@ export default function Footer() {
     <footer className='footer border-top'>
       <section className='footer__container p-4'>
 
-        <Link to='/home' className='text-center'>
+        <Link to='/' className='text-center'>
           <img
             width={150}
             alt="Logo"

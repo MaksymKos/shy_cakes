@@ -35,7 +35,7 @@ const EskimoPage = () => {
                 <li>Покриття білий або молочний шоколад.</li> <br />
                 <li>Дизайн на вибір.</li>
               </ul>
-              <p className='biscuit-price'><span>1 шт</span> / 80 грн</p>
+              <p className='biscuit-price'><span>1 шт</span> / 95 грн</p>
             </div>
           </div>
         </div>

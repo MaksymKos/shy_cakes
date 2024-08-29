@@ -35,7 +35,7 @@ const CakePopsPage = () => {
                 <li>Ванільний або шоколадний біскіт, згущене молоко, крем-чіз.</li> <br />
                 <li>Покриття: чорний, молочний, білий шоколад.</li>
               </ul>
-              <p className='page__price'><span>1 шт</span> / 40 грн</p>
+              <p className='page__price'><span>1 шт</span> / 60 грн</p>
             </div>
           </div>
         </div>

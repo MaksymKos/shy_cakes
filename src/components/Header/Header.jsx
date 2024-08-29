@@ -9,7 +9,6 @@ import Home from '../../assets/icons/home';
 import Catalog from '../../assets/icons/catalog';
 
 import './Header.scss';
-import Button from '../Button/Button';
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -64,9 +63,6 @@ const Header = () => {
                     <Busket /> Пакування
                   </Nav.Link>
                 </LinkContainer>
-                <div className="">
-                  <Button text=" Тиць " />
-                </div>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

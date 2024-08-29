@@ -3,7 +3,7 @@
 
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  line-height: 120%;
+  // line-height: 120%;
 }
 
 // swiper 
@@ -72,6 +72,7 @@
 
     &-desc {
       font-size: 30px;
+      margin-bottom: 0;
     }
   }
 

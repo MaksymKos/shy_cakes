@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/shy_cakes/static/css/main.8e9e818f.css",
-    "main.js": "/shy_cakes/static/js/main.2ae93215.js",
+    "main.css": "/shy_cakes/static/css/main.a75a21ae.css",
+    "main.js": "/shy_cakes/static/js/main.c0015d75.js",
     "static/media/cataloge-macarons.jpg": "/shy_cakes/static/media/cataloge-macarons.ad0e5762df6c3f448d97.jpg",
     "static/media/mac-1.jpg": "/shy_cakes/static/media/mac-1.6d6d1733743cd3648755.jpg",
     "static/media/mac-3.jpg": "/shy_cakes/static/media/mac-3.98e888580529fa41e0f8.jpg",
     "static/media/mac-4.jpg": "/shy_cakes/static/media/mac-4.38890adf48a2e65c83ce.jpg",
     "static/media/mac-2.jpg": "/shy_cakes/static/media/mac-2.f1751854dac9b5113b91.jpg",
     "static/media/mousse-cake-3.jpg": "/shy_cakes/static/media/mousse-cake-3.706957a7d7456028b7e9.jpg",
+    "static/media/set-0.jpg": "/shy_cakes/static/media/set-0.0e87cb9c2556b4a1e1d5.jpg",
+    "static/media/alinka2.jpg": "/shy_cakes/static/media/alinka2.137ff410d335b7189d4a.jpg",
     "static/media/set-2.jpg": "/shy_cakes/static/media/set-2.db4b23d69521c7918b8e.jpg",
     "static/media/rev-3.jpg": "/shy_cakes/static/media/rev-3.a44dbb2b403930761d3a.jpg",
     "static/media/rev-2.jpg": "/shy_cakes/static/media/rev-2.18fbda70f0549567dcce.jpg",
     "static/media/biscuit-2.jpg": "/shy_cakes/static/media/biscuit-2.92d95f42cac0120a12cf.jpg",
     "static/media/mousse-cake-1.jpg": "/shy_cakes/static/media/mousse-cake-1.c168e3342ddb3eee623e.jpg",
+    "static/media/certificate2.jpg": "/shy_cakes/static/media/certificate2.3453cd575d7e62607036.jpg",
     "static/media/biscuit-1.jpg": "/shy_cakes/static/media/biscuit-1.6221ad560094b41406e0.jpg",
     "static/media/mousse-cake-2.jpg": "/shy_cakes/static/media/mousse-cake-2.ad5bf94040dfb97c0548.jpg",
     "static/media/set-4.jpg": "/shy_cakes/static/media/set-4.3b6deffc34d70379d346.jpg",
+    "static/media/certificate1.jpg": "/shy_cakes/static/media/certificate1.9c248232b52cbfd3ee9c.jpg",
     "static/media/cake-pops-2.jpg": "/shy_cakes/static/media/cake-pops-2.cd6c197b439195cdb70b.jpg",
     "static/media/cake-pops.jpeg": "/shy_cakes/static/media/cake-pops.cd6c197b439195cdb70b.jpeg",
     "static/media/biscuit-6.jpg": "/shy_cakes/static/media/biscuit-6.3cbb9fdd3dd605d9e540.jpg",
     "static/media/biscuit-7.jpg": "/shy_cakes/static/media/biscuit-7.3ea363d619bef82961a9.jpg",
     "static/media/biscuit-3.jpg": "/shy_cakes/static/media/biscuit-3.afb2cdaec354d1f1f64b.jpg",
+    "static/media/alinka.jpg": "/shy_cakes/static/media/alinka.0e63ff8e7be6c74446ad.jpg",
     "static/media/gift_sets.jpg": "/shy_cakes/static/media/gift_sets.41c7d98014377752a440.jpg",
     "static/media/biscuit-9.jpg": "/shy_cakes/static/media/biscuit-9.283480125420a60be28b.jpg",
     "static/media/rev-1.jpg": "/shy_cakes/static/media/rev-1.d98d207cf8593e70d4f5.jpg",
@@ -42,11 +47,11 @@
     "static/media/pack-1.jpg": "/shy_cakes/static/media/pack-1.b5015240ff5012773dc8.jpg",
     "index.html": "/shy_cakes/index.html",
     "static/media/Arrow_gray.svg": "/shy_cakes/static/media/Arrow_gray.bca5376b1db38a7323e9.svg",
-    "main.8e9e818f.css.map": "/shy_cakes/static/css/main.8e9e818f.css.map",
-    "main.2ae93215.js.map": "/shy_cakes/static/js/main.2ae93215.js.map"
+    "main.a75a21ae.css.map": "/shy_cakes/static/css/main.a75a21ae.css.map",
+    "main.c0015d75.js.map": "/shy_cakes/static/js/main.c0015d75.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e9e818f.css",
-    "static/js/main.2ae93215.js"
+    "static/css/main.a75a21ae.css",
+    "static/js/main.c0015d75.js"
   ]
 }

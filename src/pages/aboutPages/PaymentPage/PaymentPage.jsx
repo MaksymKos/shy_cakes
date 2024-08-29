@@ -6,7 +6,7 @@ const PaymentPage = () => {
   return (
     <>
       <div className="bread-crumbs">
-        <Link to="/">
+        <Link to="/home/">
           <Home />
         </Link>
         <p className="bread-crumbs__arrow" />

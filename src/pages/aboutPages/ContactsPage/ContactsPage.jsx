@@ -6,7 +6,7 @@ const ContactsPage = () => {
   return (
     <div className='contacts-page vh-100'>
       <div className="bread-crumbs">
-        <Link to="/">
+        <Link to="/home/">
           <Home />
         </Link>
         <p className="bread-crumbs__arrow" />

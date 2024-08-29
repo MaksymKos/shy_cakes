@@ -16,7 +16,7 @@ const Macarons = () => {
     <>
       <div >
         <div className="bread-crumbs">
-          <Link to="/">
+          <Link to="/home/">
             <Home />
           </Link>
 

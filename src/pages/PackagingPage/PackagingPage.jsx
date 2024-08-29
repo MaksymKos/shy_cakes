@@ -8,7 +8,7 @@ const Packaging = () => {
   return (
     <>
       <div className="bread-crumbs">
-        <Link to="/">
+        <Link to="/home/">
           <Home />
         </Link>
 

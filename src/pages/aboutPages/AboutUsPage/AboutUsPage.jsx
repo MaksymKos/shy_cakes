@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import { Container } from "react-bootstrap";
 import { Link } from 'react-router-dom';
 import Home from '../../../assets/icons/home';
@@ -11,10 +12,24 @@ import certificate2 from "../../../assets/images/certificate2.jpg";
 import styles from './AboutUsPage.module.scss';
 
 const AboutUsPage = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <>
       <div className="bread-crumbs">
-        <Link to="/">
+        <Link to="/home/">
           <Home />
         </Link>
         <p className="bread-crumbs__arrow" />
@@ -26,6 +41,7 @@ const AboutUsPage = () => {
         <h1 className='page__header'>Про мене</h1>
         <div className={styles.image_wrapper}>
           <img src={me1} alt="Alina" className={styles.image}/>
+          {windowWidth > 650 && <img src={me2} alt="Alina" className={styles.image}/>}
         </div>
         <div className='home__about__list'>
             <div className="">
@@ -43,13 +59,13 @@ const AboutUsPage = () => {
           Від елегантних тортів на пам'ятні дати до казкових маленьких десертів які прикрасять кожен Ваш день.<br/>
           Приєднуйтесь до цієї захоплюючої подорожі світом смаків та ароматів, де кожен торт розповідає свою історію, а кожен шматочок - це радість та задоволення.
         </p>
-        <div className={styles.image_wrapper}>
+        {windowWidth < 650 && <div className={styles.image_wrapper}>
           <img src={me2} alt="Alina" className={styles.image}/>
-        </div>
+        </div>}
         <h2 className='page__header'>Мої сертифікати</h2>
         <div className={styles.image_flex}>
-          <img src={certificate} alt="Alina" className={styles.image}/>
-          <img src={certificate2} alt="Alina" className={styles.image}/>
+          <img src={certificate} alt="Alina" className={styles.image_certificate}/>
+          <img src={certificate2} alt="Alina" className={styles.image_certificate}/>
         </div>
       </Container>
     </>

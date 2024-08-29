@@ -20,14 +20,15 @@ const Header = () => {
     <header className='header border-bottom sticky-top'>
       <Navbar expand="md">
         <Container fluid>
-          <Navbar.Brand href="/home/">
-            <Figure.Image
-              width={120}
-              height={100}
-              alt="Logo"
-              src={logo}
-            />
-          </Navbar.Brand>
+          <LinkContainer to="/home/">
+              <Figure.Image
+                width={120}
+                height={100}
+                alt="Logo"
+                src={logo}
+              />
+            </LinkContainer>
+
           <Navbar.Toggle aria-controls='offcanvasNavbar-expand' onClick={toggleShow} />
           <Navbar.Offcanvas
             id='offcanvasNavbar-expand'

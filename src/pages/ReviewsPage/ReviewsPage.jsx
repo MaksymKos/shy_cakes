@@ -307,7 +307,6 @@ const ReviewsPage = () => {
               <Button text="Замовити такий"/>
             </div>
           </div>
-
         </div>
       </Container>
     </>
